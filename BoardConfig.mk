@@ -30,3 +30,6 @@ TARGET_KERNEL_SOURCE := kernel/samsung/ivoryss
 TARGET_KERNEL_CONFIG := cyanogenmod_ivoryss_defconfig
 
 BOARD_HAS_NO_SELECT_BUTTON := true
+
+# OpenGL drivers config file path
+BOARD_EGL_CFG := device/samsung/ivoryss/egl.cfg
