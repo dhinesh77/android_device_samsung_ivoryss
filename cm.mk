@@ -14,5 +14,9 @@ $(call inherit-product, device/samsung/ivoryss/device_ivoryss.mk)
 PRODUCT_DEVICE := ivoryss
 PRODUCT_NAME := cm_ivoryss
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := ivoryss
+PRODUCT_MODEL := GT-S6010L
 PRODUCT_MANUFACTURER := samsung
+
+## Bootanimation
+TARGET_SCREEN_HEIGHT := 320
+TARGET_SCREEN_WIDTH := 240
