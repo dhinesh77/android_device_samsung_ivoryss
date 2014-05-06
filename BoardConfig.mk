@@ -33,3 +33,11 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 
 # OpenGL drivers config file path
 BOARD_EGL_CFG := device/samsung/ivoryss/egl.cfg
+
+USE_OPENGL_RENDERER := true
+
+BOARD_USES_ALSA_AUDIO := true
+
+# Enable Bluetooth 
+BOARD_HAVE_BLUETOOTH := true
+BOARD_HAVE_BLUETOOTH_BCM := true
